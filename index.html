@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Cours à Distance</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<a href="#" onclick="toggle()">
+			<img src="img/grid.png" width="32px" class="grid">
+		</a>
+
+		<div id="container">
+			<div id="popup">
+				<div class="content"></div>
+				<div id="menu">
+					<ul>
+						<li><a href="espce-prof.html">Espace Professeurs</a></li>
+						<li><a href="#">Espace &Eacute;lèves</a></li>
+						<li><a href="#">Espace Parents</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- CONTENT PAGE -->
+		<div class="content-page">
+			<div class="titre">
+				<img src="img/001-book.png">
+				<h1>Cours à Distance</h1>
+			</div>
+			
+			<div class="btn-connect">
+				<a href="espce-prof.html" class="btn-connect-prof">Espace Professeurs</a> <br>
+				<a href="#" class="btn-connect-eleves">Espace &Eacute;lèves</a> <br>
+				<a href="#" class="btn-connect-parents">Espace Parents</a>
+			</div>
+		</div>
+
+		<!-- SCRIPT -->
+		<script type="text/javascript">
+			function toggle() {
+				var popup = document.getElementById('popup');
+				popup.classList.toggle('active')
+			}
+		</script>
+	</body>
+</html> 

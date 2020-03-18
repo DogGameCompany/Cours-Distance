@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+img.grid {
+	float: right;
+	margin: 20px;
+}
+
+#popup {
+	visibility: hidden;
+	opacity: 0;
+}
+
+#popup.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+#popup #menu {
+	background: #bebebe;
+	font-size: 20px;
+	float: right;
+	text-align: center;
+	margin-top: 86px;
+	margin-right: -51px;
+	border-radius: 5px;
+}
+
+#container .content {
+	content: '';
+	float: right;
+	text-align: center;
+	margin-top: 60px;
+	margin-right: -52px;
+	border-radius: 5px;
+	width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 30px solid #bebebe;
+}
+
+#popup ul li {
+	list-style: none;
+}
+
+#popup ul li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 10px;
+}
+
+#popup ul li a:hover {
+	background: #919191;
+}
+
+#popup ul li:nth-child(1) a {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#popup ul li:nth-child(3) a {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+
+/*
+CONTENT PAGE
+*/
+.content-page {
+	height: 100%;
+	width: 88%;
+}
+
+.content-page .titre {
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.content-page .titre h1 {
+	margin-left: 150px;
+	margin-top: -110px;
+	font-size: 50px;
+}
+
+.btn-connect {
+	margin-left: 185px;
+	margin-top: 150px;
+}
+
+.btn-connect .btn-connect-prof {
+	display: inline-block;
+	text-decoration: none;
+	background: #FF4D05;
+	color: #fff;
+	font-size: 30px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 0;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.btn-connect .btn-connect-prof:hover {
+	transform: scale(1.15);
+}
+
+.btn-connect .btn-connect-eleves {
+	display: inline-block;
+	text-decoration: none;
+	background: #FFD400;
+	color: #fff;
+	font-size: 30px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 0;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.btn-connect .btn-connect-eleves:hover {
+	transform: scale(1.15);
+}
+
+.btn-connect .btn-connect-parents {
+	display: inline-block;
+	text-decoration: none;
+	background: #D0004F;
+	color: #fff;
+	font-size: 30px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 0;
+	margin-bottom: 60px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.btn-connect .btn-connect-parents:hover {
+	transform: scale(1.15);
+}
+
+
+/*
+ESPACE PROF
+*/
+.selection-matiere {
+	margin: 90px;
+}
+
+.selection-matiere img {
+	margin-left: -55px;
+}
+
+.selection-matiere h2 {
+	margin-bottom: 50px;
+	margin-top: -50px;
+}
+
+.btn-matiere ul li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.btn-matiere .btn {
+	color: #fff;
+	text-decoration: none;
+	background: #E64C3C;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 25px;
+	border: 3px solid #E64C3C;
+	transition: 0.3s;
+}
+
+.btn-matiere .btn:hover {
+	background: #fff;
+	color: #E64C3C;
+}
+
+.btn-matiere .btn2 {
+	color: #fff;
+	text-decoration: none;
+	background: #35495E;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 25px;
+	border: 3px solid #35495E;
+	transition: 0.3s;
+}
+
+.btn-matiere .btn2:hover {
+	background: #fff;
+	color: #35495E;
+}

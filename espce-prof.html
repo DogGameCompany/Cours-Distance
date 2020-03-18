@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Espace Professeurs || Cours à Distance</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<a href="#" onclick="toggle()">
+			<img src="img/grid.png" width="32px" class="grid">
+		</a>
+
+		<div id="container">
+			<div id="popup">
+				<div class="content"></div>
+				<div id="menu">
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="#">Espace &Eacute;lèves</a></li>
+						<li><a href="#">Espace Parents</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- CONTENT PAGE -->
+		<div class="content-page">
+			<div class="titre">
+				<img src="img/001-book.png">
+				<h1>Cours à Distance</h1>
+			</div>
+
+			<div class="selection-matiere">
+				<img src="img/004-book-3.png" width="50px"> <h2>Dite-moi, vous enseignez quelle matière ?</h2>
+				<div class="btn-matiere">
+					<ul>
+						<li><a href="phichi.html" class="btn">Phisyque Chimie</a></li> <br>
+						<li><a href="maths.html" class="btn2">Mathématiques</a></li> <br>
+						<li><a href="franc.html" class="btn">Français</a></li> <br>
+						<li><a href="franc.html" class="btn2">Anglais</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- SCRIPT -->
+		<script type="text/javascript">
+			function toggle() {
+				var popup = document.getElementById('popup');
+				popup.classList.toggle('active')
+			}
+		</script>
+	</body>
+</html>
